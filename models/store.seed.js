@@ -1,7 +1,6 @@
-function Store(id, name, location) {
-  this.id = id;
-  this.name = name;
-  this.location = location;
+var extend = require('util')._extend;
+
+function Store() {
   this.items = [];
   this.customers = [];
 };
