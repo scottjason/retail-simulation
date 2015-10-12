@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/scottjason/retail-simulation",
   "dependencies": {
+    "cheerio": "^0.19.0",
     "express": "^4.13.3",
     "firebase": "^2.3.1",
-    "firebase-tools": "^1.2.0"
+    "firebase-tools": "^1.2.0",
+    "request": "^2.65.0",
+    "underscore": "^1.8.3"
   }
 }
